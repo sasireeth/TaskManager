@@ -1,0 +1,23 @@
+.task-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .task-list-filters {
+    margin-bottom: 10px;
+  }
+  
+  .filter-label,
+  .sort-label {
+    margin-right: 10px;
+  }
+  
+  .filter-select,
+  .sort-select {
+    padding: 5px;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,63 @@
+.task {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-wrap: break-word;
+    margin-right: 20px;
+    align-items: center;
+    width: 310px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .view-task,
+  .edit-task {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  .edit-task input,
+  .edit-task textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-btn,
+  .save-btn,
+  .cancel-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .completion-checkbox {
+    margin-right: 5px;
+  }
+  
+  .completion-label {
+    font-weight: bold;
+  }
+
+  .completed {
+    background-color: lightgreen; 
+  }
+  
+  .pending {
+    background-color: lightcoral; 
+  }
+
+  .description{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .task:hover {
+    transform: scale(1.05); 
+  }
+  
+  .button {
+    transition: background-color 0.3s ease; 
+  }

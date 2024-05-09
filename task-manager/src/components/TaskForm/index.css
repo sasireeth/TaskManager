@@ -1,0 +1,21 @@
+.task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .task-form input[type="text"],
+  .task-form textarea,
+  .task-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
